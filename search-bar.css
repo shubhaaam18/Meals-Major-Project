@@ -1,0 +1,21 @@
+
+.search-suggestions {
+    position:relative;
+    background-color: transparent;
+    /*border: 1px solid white;*/
+    max-height: 150px;
+    overflow-y: auto;
+    width: 30%;
+    z-index: 1;
+    text-align:center ;
+}
+
+.suggestion {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.suggestion:hover {
+    background-color: #e56447;
+}

@@ -1,0 +1,233 @@
+
+#background-image { /* background image for main index.html page*/
+    background-image: url('food-image.jpg');
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(9.5px);
+}
+
+#background-image-search-results{ /* background image for main search results page*/
+    background-image: url(search-result-image.jpg);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-size: cover;
+    z-index: -2;
+    filter: blur(9.5px);
+}
+
+.list { /* list index page*/
+    margin: 10px;
+    color: white;
+    transition: color 0.3s;
+}
+
+.list-holder-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    color: #f0f0f0;
+    font-size: large;
+}
+
+.list a:hover{
+    color:  #E65100;;
+}
+
+.list a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+    border: 1px solid #FF5733;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#search-input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: normal;
+    border-radius: 15px;
+}
+
+#search-button { /* button styling*/
+    padding: 10px 20px;
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+#search-button:hover {
+    background-color: #E65100;
+}
+
+.body-index{ /*body styling for index page*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: #f0f0f0;
+}
+
+.body-fav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-fav h1{
+    font-size: 40px;
+    color: #cb4a3c;
+}
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.highlight {
+    color: #0D47A1;
+    font-weight: bold;
+}
+
+.highlight:hover {
+    text-decoration: underline;
+}
+
+.meal-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.meal-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.favorite-button { /* favorite page button styling*/
+    padding: 5px 10px;
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.favorite-button:hover {
+    background-color: #E65100;
+}
+
+.meal-container a {
+    text-decoration: none;
+}
+
+.meal-container{ /* meals on search page styling*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.meal-container h3 {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.meal-container h3:hover {
+    text-decoration: underline;
+}
+
+.link-container-2 { /* search results page styling*/
+    justify-content: center;
+}
+
+.link-container-2 a{
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+    transition: color 0.3s;
+    border: 1px solid #FF5733;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.link-container-2 a:hover{
+    color:  #E65100;
+}
+
+.link-container-3{
+    justify-content: center;
+    text-align: center;
+}
+
+.link-container-3 a{
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+    transition: color 0.3s;
+    border: 1px solid #FF5733;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.link-container-3 a:hover{
+    color:  #E65100;
+}
+
+.link-container-4{
+    justify-content: center;
+    text-align: center; 
+    display: flex;  
+}
+
+.link-container-4 a{
+    display: block ;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+    transition: color 0.3s;
+    border: 1px solid #FF5733;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.link-container-4 a:hover{
+    color:  #E65100;
+}
